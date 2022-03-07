@@ -1,31 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-nav{
-    position: relative;
+nav {
+  position: relative;
 }
-.openModal{
-    height: 100%;
+.openModal {
+  height: 100%;
 }
-.firstNav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
-    padding: 15px 0;
+.firstNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  padding: 15px 0;
 }
-.secondNav{
-    background-color: green;
-    position: absolute;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    top: 100%;
-    left: 0;
+.secondNav {
+  background-color: green;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 100%;
+  left: 0;
 }
-.displayNone{
-    display: none;
+.displayNone {
+  display: none;
 }
